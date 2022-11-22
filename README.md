@@ -1,5 +1,5 @@
 # FreeCodeCamp
-Projects I have completed while doing the freecodecamp courses
+Projects I have completed while doing the freecodecamp.org courses
 
 # Relational Databases   
 1.Celestial Bodies Database -[View on GitHub](https://github.com/TrevorHenry05/FreeCodeCamp/tree/main/Relational%20Databases/Celestial%20Bodies%20Database)  
