@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Favorite Season/Weather/Time of Day Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Favorite Season/Weather/Time of Day Survey</h1>
+    <p id="description">in this you survey you will be answering what you favorite season, time of day and weather type is?</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" class="inputlabel">Name 
+          <input id="name" placeholder="Enter you name" type="text" class="inputs" required></label>
+        <label id="email-label" class="inputlabel">Email 
+          <input id="email" placeholder="Enter your Email" type="email" class="inputs" required></label>
+        <label id="number-label" class="inputlabel">Age (optional) 
+          <input id="number" type="number" min="13" max="120" placeholder="Age" class="inputs"></label>
+      </fieldset>
+      <fieldset>
+        <label class="inputlabel">What is your favorite season?
+          <select id="dropdown">
+            <option>Spring</option>
+            <option>Summer</option>
+            <option>Fall</option>
+            <option>Winter</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label class="inputlabel">Favorite time of Day?</label>
+        <label><input id="morning" type="radio" name="time-of-day" value="morning">Morning</label>
+        <label><input id="afternoon" type="radio" name="time-of-day" value="afternoon">AfterNoon</label>
+        <label><input id="night" type="radio" name="time-of-day" value="night">Night</label>
+      </fieldset>
+      <fieldset>
+        <label class="inputlabel">Favorite Weather types? (check all that apply)</label>
+        <label><input id="sunny" type="checkbox" value="sunny" class="inline">Sunny</label>
+        <label><input id="rainy" type="checkbox" value="rainy" class="inline">Rainy</label>
+        <label><input id="snow" type="checkbox" value="snow" class="inline">Snowy</label>
+        <label><input id="cloudy" type="checkbox" value="cloudy" class="inline">Cloudy</label>
+      </fieldset>
+      <fieldset>
+        <label for="comments" class="inputlabel">Any additional Comments: 
+          <textarea id="comments" rows="5" cols="75" placeholder="Enter any additional comments you have about the survey here"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="submit">
+    </form>
+  </body>
+</html>
