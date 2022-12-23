@@ -1,5 +1,5 @@
 # FreeCodeCamp
-Projects I have completed while doing the freecodecamp.org courses
+Projects I have completed while doing the freecodecamp.org courses  
 My freeCodeCamp.org account -[View](https://www.freecodecamp.org/THenry04)
 
 # Relational Databases   
