@@ -10,9 +10,9 @@ Projects I have completed while doing the freecodecamp.org courses
 ![GitHub Logo](/Certifications/Database_cert.PNG)  
 
 # Responisve Web Design
-1.Survey Form -[View on Codepen](https://codepen.io/TrevorHenry05/pen/BaVVdgQ)
-2.Tribute Page -[View on Codepen](https://codepen.io/TrevorHenry05/pen/MWXzwdr)
-3.Technical Documentation Page -[View on Codepen](https://codepen.io/TrevorHenry05/pen/MWXzwdr)
-4.Product Landing Page -[View on Codepen](https://codepen.io/TrevorHenry05/pen/WNKboNB)
-5.Personal Portfolio Webpage -[View on Codepen](https://codepen.io/TrevorHenry05/pen/yLqNbQO)
+1.Survey Form -[View on Codepen](https://codepen.io/TrevorHenry05/pen/BaVVdgQ)  
+2.Tribute Page -[View on Codepen](https://codepen.io/TrevorHenry05/pen/MWXzwdr)  
+3.Technical Documentation Page -[View on Codepen](https://codepen.io/TrevorHenry05/pen/MWXzwdr)  
+4.Product Landing Page -[View on Codepen](https://codepen.io/TrevorHenry05/pen/WNKboNB)  
+5.Personal Portfolio Webpage -[View on Codepen](https://codepen.io/TrevorHenry05/pen/yLqNbQO)  
 ![GitHub Logo](/Certifications/responsivewebdesigncert.PNG)
