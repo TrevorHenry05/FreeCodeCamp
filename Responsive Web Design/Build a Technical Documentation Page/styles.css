@@ -1,0 +1,103 @@
+html, body {
+    min-width: 320px;
+    color: #330033;
+    background-color: white;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.25;
+  }
+  
+  header {
+    font-size: 1.9em;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  #main-doc header {
+    text-align: left;
+    margin-left: 0;
+  }
+  
+  
+  #navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    border-right: solid #330033 3px;
+    background-color: white;
+  }
+  
+  #navbar ul {
+    padding: 0;
+    height: 70%;
+    list-style: none;
+  }
+  
+  #navbar li {
+    border-top: solid #330033 1px;
+    color: #330033;
+    position: relative;
+  }
+  
+  .nav-link {
+    display: block;
+    text-decoration: none;
+    color: #330033;
+    padding: 10px 20px;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 320px;
+    padding: 15px;
+    margin-bottom: 100px;
+  }
+  
+  section li {
+    margin: 15px 0 0 15px;
+  }
+  
+  section article {
+    margin: 10px;
+    color: #330033;
+    font-size: .9em;
+  }
+  
+  code {
+    display: block;
+    text-align: left;
+    font-size: 1.2em;
+    word-wrap: normal;
+    position: relative;
+    background-color:	#d3d3d3;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    white-space: pre-line;
+  }
+  
+  
+  
+  @media (max-width: 400px) {
+    #main-doc {
+      margin-left: -5px;
+    }
+  
+    code {
+      margin-left: -15px;
+      width: 100%;
+      padding: 10px;
+      padding-left: 10px;
+      padding-right: 40px;
+      min-width: 220px;
+    }
+  }
+  
+  #link {
+    color: blue;
+  }
+  
+  #link :visited {
+    color: purple;
+  }

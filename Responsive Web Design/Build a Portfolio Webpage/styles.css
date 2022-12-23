@@ -1,0 +1,227 @@
+:root {
+    --purple-color: #4717F6;
+    --blackpurple-color: #0E0B16;
+    --ivory-color: #E7DFDD;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: auto !important;
+    box-sizing: border-box;
+    scroll-padding-top: 100px;
+  }
+  
+  html , body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  @media only screen and (max-width: 300px) {
+    * {
+      font-size: 1rem;
+    }
+  }
+  
+  #header {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-color: var(--ivory-color);
+    display: flex;
+    align-items: center;
+      justify-content: center;
+  }
+  
+  #navbar {
+    font-size: 18px;
+    width: 400px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: var(--blackpurple-color);
+    float: right;
+    padding: 0.75em 1.5em;
+  }
+  
+  .nav-link:hover {
+    background-color: var(--blackpurple-color);
+    color: var(--purple-color);
+    border-radius: 30px;
+    transition: 0ms;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blackpurple-color);
+  }
+  
+  h1 {
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    color:var(--ivory-color);
+    font-size: 2rem;
+  }
+  
+  p {
+    margin: auto;
+    margin-top: 0;
+    color:var(--purple-color);
+    font-size: 1.1rem;
+  }
+  
+  #projects {
+    background-color: var(--purple-color);
+    width: 100%;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #projects h2 {
+    text-align: center;
+    margin: 0 auto 3rem auto;
+    border-bottom: var(--blackpurple-color) 2px solid;
+    max-width: 640px;
+    font-size: 2.2rem;
+  }
+  
+  #project-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .project-tile {
+    padding: 2px;
+    background-color: var(--ivory-color);
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px var(--blackpurple-color);
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+  }
+  
+  .project-link {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--blackpurple-color);
+  }
+  
+  .project-title {
+    padding: 1rem;
+    font-size: 100%;
+    line-height: 1.5;
+  }
+  
+  .project-tile:hover {
+    background-color: var(--blackpurple-color);
+    transition: .75s;
+  }
+  
+  .project-tile:hover .project-link {
+    color: var(--ivory-color);
+    transition: .75s;
+  }
+  
+  .show-all {
+    text-decoration: none;
+    color: var(--blackpurple-color);
+    background-color: var(--ivory-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .show-all.top {
+    margin-top: 6rem;
+  }
+  
+  .show-all:hover {
+    background-color: var(--blackpurple-color);
+    color: var(--ivory-color);
+    transition: 0.5s;
+  }
+  
+  .show-all:hover i {
+    padding-left: 10px;
+    transition: 0.5s;
+  }
+  
+  #contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--blackpurple-color);
+    height: 80vh;
+  }
+  
+  #contact h1 {
+    text-align: center;
+    font-size:3rem;
+    color: var(--ivory-color);
+    margin: auto;
+    margin-bottom: 0;
+  }
+  
+  #profile-links {
+    margin: auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .link:hover {
+    transform: translateY(8px);
+    transition: 0.75s;
+    color: var(--purple-color);
+  }
+  
+  .link {
+    color: var(--purple-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+  }
+  
+  footer {
+    height: 15vh;
+    border-top: 3px solid var(--purple-color);
+    background-color: var(--blackpurple-color);
+  }
+  
+  footer p {
+    margin-top: 7vh;
+    text-align: center;
+    color: var(--purple-color);
+  }
+  
+  
