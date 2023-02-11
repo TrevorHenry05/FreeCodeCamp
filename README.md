@@ -18,7 +18,7 @@ My freeCodeCamp.org account -[View](https://www.freecodecamp.org/THenry04)
 5. Personal Portfolio Webpage -[View on Codepen](https://codepen.io/TrevorHenry05/pen/yLqNbQO)  
 ![GitHub Logo](/Certifications/responsivewebdesigncert.PNG)
 
-#JavaScript Algorithms and Data Structures
+# JavaScript Algorithms and Data Structures
 1. Palindrome Checker -[View on GitHub](https://github.com/TrevorHenry05/FreeCodeCamp/blob/main/JavascriptAlgroithmsandDataStructures/PalindromeChecker.js)
 2. Roman Numeral Converter -[View on GitHub](https://github.com/TrevorHenry05/FreeCodeCamp/blob/main/JavascriptAlgroithmsandDataStructures/RomanNumeralConverter.js)
 3. CaesarsCipher -[View on GitHub](https://github.com/TrevorHenry05/FreeCodeCamp/blob/main/JavascriptAlgroithmsandDataStructures/CaesarsCipher.js)
